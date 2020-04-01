@@ -1,0 +1,177 @@
+<!DOCTYPE hyml>
+<html  lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>London Activities</title>
+	
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+
+    <link href="./css/actdubai.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" >
+</head>
+<body >
+<div id="warp">
+		<nav class="header">
+			<img src="./icons/logo.png" id="logo" />
+			<ul> 
+			<li>
+                <a href="login.php">
+				 <div class="icon">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                    </div>
+                     
+                    <div class="header-item" data-text="login"><h3>التسجيل</h3></div>
+                    </a>
+            </li> 
+				<li> <a href="Home.php">
+					<div class="icon">
+						<i class="fa fa-home"></i>
+					</div>
+					<div class="header-item"><h3>الرئيسية</h3></div>
+				</a>
+				<div class="sub-content">
+					<div class="sub-drop">
+						<ul>
+							<li>
+								<a href="dCountries.php">
+									<div class="icon">
+										<i class="fa fa-globe" ></i>
+									</div>
+									<div class="header-item"><h3>الدول</h3></div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</li>
+			<li>
+				<a href="dhowAreWe.php">
+					<div class="icon">
+						<i class="fa fa-question-circle"></i>
+					</div>
+					<div class="header-item"><h3>من نحن</h3></div>
+				</a>
+			</li>
+			<li>
+				<a href="dsay.php">
+					<div class="icon">
+						<i class="fa fa-heart"></i>
+					</div>
+					<div class="header-item"><h3>أراء</h3></div>
+				</a>
+			</li>  
+			<li>
+				<a href="#call">
+					<div class="icon">
+						<i class="fa fa-phone-square" ></i>
+					</div>
+					<div class="header-item" ><h3>اتصل بنا</h3></div>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	</div>
+	
+	 <a class="goto"  href="#"> <i class="fas fa-arrow-up"></i></a>
+	 
+	 <div class="carousel">
+	<h1 id="2">الأماكن السياحية</h1>
+
+	    <div class="carousel-item">
+		<img src="./images/big.jpg">
+		<h3>بيج بن</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/kal.jpg">
+		<h3>برج لندن</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/ain.jpg">
+		<h3>عين لندن</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/hide.jpg">
+		<h3>هايد بارك</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/haro.jpg">
+		<h3>هارودز لندن</h3>
+	    </div>
+	</div>
+	
+	 <div class="carousel">
+	<h1 id="3">المطاعم</h1>
+
+        <div class="carousel-item">
+		<img src="./images/sk.jpg">
+		<h3> Sketch مطعم</h3>
+	    </div>
+	    <div class="carousel-item">
+		<img src="./images/dish.jpg">
+		<h3>مطعم ديشوم </h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/room.jpg">
+		<h3> Holborn Dining Room مطعم</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/hut.jpg">
+		<h3>hutong مطعم</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/mag.jpg">
+		<h3>the magazine مطعم</h3>
+	    </div>
+	</div>
+	
+	<div class="carousel">
+	  <h1 id="1">الأنشطة</h1>
+	  
+	    <div class="carousel-item">
+		<img src="./images/tz.jpg">
+		<h3>تزلج/ سومرست هاوس</h3>
+	    </div>
+        <div class="carousel-item">
+		<img src="./images/win.jpg">
+		<h3>أرض عجائب الشتاء</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/fn.jpg">
+		<h3>معرض لندن للفن</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/sin.jpg">
+		<h3>تشاينا تاون</h3>
+	    </div>
+		<div class="carousel-item">
+		<img src="./images/7d.jpg">
+		<h3>حدائق كنسينغتون </h3>
+	    </div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	 <script type="text/javascript">
+	 $(document).ready(function(){
+     $('.carousel').carousel();
+      });
+	 </script>
+	 
+	  <div id="sub-div"></div>
+        <div class="footer">
+            <h1 id="call">للتواصل</h1>
+            <a href="mailto:support@yourcompany.com"><h4>&#9826 support@yourcompany.com </h4></a>
+                <a><h4> &#9743 0536136276 </h4></a>
+                <ul class="social-buttons">
+                    <li><a href="https://m.facebook.com/bat.bot.16"><i class="fab fa-facebook" ></i></a></li>
+                    <li><a href="https://twitter.com/terhal_77"><i class="fab fa-twitter" ></i></a></li> 
+                    <li><a href="https://instagram.com/vampirdes35?igshid=1xymp835j1bf2"><i class="fab fa-instagram" ></i></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCu2qxIbGeqMYhoZVZx59CkQ"><i class="fab fa-youtube" ></i></a></li>
+                </ul>
+                <p><font size="5" color="#30336b">&#169; جميع الحقوق محفوظة لشركة ترحال للسياحة والسفر 2019-2020</font></p>
+        </div>
+	 
+</body>
+</html>

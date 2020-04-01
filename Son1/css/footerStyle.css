@@ -1,0 +1,60 @@
+#sub-div
+{
+    padding :0;
+    height:0;
+    background-position:bottom;
+}
+.footer{
+    background-color: rgb(206, 218, 235);
+    text-align: center;
+}
+.footer h1{
+    font-family: 'Lemonada', cursive;
+    color : #30336b ;
+}
+.footer h4{
+    color : #30336b ;
+    font-size: 20px;
+}
+
+.Social-buttons {
+    list-style-type: none;
+}
+.Social-buttons li{
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+}
+.Social-buttons i{
+    color: #fff;
+    position: absolute;
+    top: 21px;
+    left: 21px;
+    transition: all 0.5s ease-out;
+}
+.Social-buttons{
+    display: inline-block;
+}
+.Social-buttons a::before{
+    transform: scale(1);
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-right: 100%;
+    display: block;
+    background: linear-gradient(45deg,#22a6b3,#30336b);
+    border-radius:50%;
+}
+.Social-buttons a:hover::before{
+    transform: scale(0);
+    transition: all 0.5s ease-in;
+}
+.Social-buttons a:hover i{
+    transform: scale(2.2);
+    color: #22a6b3;
+    background: linear-gradient(45deg,#22a6b3,#30336b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.5s ease-in;
+}

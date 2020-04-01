@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    margin-top: 0.2px;
+    padding: 0;
+   
+}
+
+/*--------- class menu--------------*/
+.header{
+    width: 100%;
+    margin: auto;
+    margin-top:0.2px;
+    float: right;
+    color: #fff;
+    height: 100px;
+}
+
+#logo {
+    height: 100%;
+    float: right;
+}
+h3{
+    font-family: 'Amiri', serif;
+    font-family: 'Mirza', cursive;
+    font-family: 'Lemonada', cursive;
+    font-family: 'Scheherazade', serif;
+    font-size: 25;
+    font-weight: normal;
+    transform: translateY(-100%);
+    color: white;
+}
+.header >ul{
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    float: right;
+    list-style-type: none;
+    font: right;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    border-radius: 60px;
+    box-shadow: 0 10px 20px rgb(240, 240, 240);
+}
+.header >ul >li{
+    list-style: none;
+    float: right;
+    display: block;
+}
+
+.header >ul >li >a{
+    text-decoration: none;
+    padding: 0.5px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+.header-item{
+    font-family: 'Amiri', serif;
+    display: inline-block;
+    padding: 0.2px 25px;
+    height: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+ul li a .icon{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto 10px;
+}
+ul li a .icon .fa{
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 34px;
+    transition: 4s;
+    color: white;
+}
+ul li a:hover .icon .fa{
+    transform: translateY(-100%);
+    color: skyblue;
+}
+
+.header >ul >li{
+    float: right;
+}
+
+/*---------------Styly sub-----------------------*/
+.sub-content{
+    position: absolute;
+    top: 100px;
+    overflow: hidden;
+   /* background-color: white;*/
+    max-height: 0;
+    border-radius: 40px;
+}
+
+.sub-content a{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.sub-drop{
+    padding: 0;
+}
+
+.sub-drop ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.sub-drop ul li a{
+    display: inline-block;
+    
+    padding: 20px 10px;
+}
+
+.sub-drop ul li:hover{
+    background-color:rgba(182, 210, 228, 0.979);
+}
+
+/*----------------controling---------------*/
+.header-item:focus{
+    background-color: rgba(182, 210, 228, 0.979);
+}
+
+.header ul li:hover .sub-content{
+    max-height: 400px;
+    transition: max-height 1s ease-in;
+}
+
